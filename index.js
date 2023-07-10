@@ -2,4 +2,8 @@ function sayHello() {
   console.log("Hello, world!");
 }
 
-module.exports = { sayHello };
+function saySum(var1, var2) {
+  return var1 + var2;
+}
+
+module.exports = { sayHello, saySum};
