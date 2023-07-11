@@ -1,4 +1,4 @@
-import { FileBasic } from '@it.specialist/my-package/src/file/fileBasic';
+import { FileBasic } from '@it.specialist/multi-functional-tools/src/file/fileBasic';
 
 declare module 'image' {
   export class Image extends FileBasic {

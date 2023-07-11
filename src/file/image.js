@@ -1,6 +1,6 @@
 const fs = require('fs');
 const { exec } = require('child_process');
-const { FileBasic } = require('@it.specialist/my-package/src/file/fileBasic');
+const { FileBasic } = require('@it.specialist/multi-functional-tools/src/file/fileBasic');
 
 class Image extends FileBasic {
   constructor() {
