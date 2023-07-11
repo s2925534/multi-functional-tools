@@ -1,12 +1,19 @@
 {
-  "name": "my-package",
+  "name": "@it.specialist/my-package",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s2925534/my-package.git"
+  },
+  "author": "veloso <pedro@veloso.dev>",
+  "license": "MIT+",
+  "bugs": {
+    "url": "https://github.com/s2925534/my-package/issues"
+  },
+  "homepage": "https://github.com/s2925534/my-package#readme"
 }
